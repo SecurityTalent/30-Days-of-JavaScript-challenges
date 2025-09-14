@@ -14,6 +14,7 @@ var createCounter = function(n) {
 let result = createCounter(10);
 console.log(result()); // 10
 console.log(result()); // 11
+console.log(result()); // 12
 
 
 /** 
