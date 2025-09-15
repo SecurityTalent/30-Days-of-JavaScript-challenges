@@ -24,5 +24,26 @@ function expect(val) {
  * expect(5).notToBe(5); // throws "Equal"
  */
 
+// objects within functions
+// function calc(val){
+// 	function add(sum){
+// 		return sum + val;
+// 	}
+// 	function sub(sub){
+// 		return sub - val;
+// 	}
+// 	return {
+// 		// add: add,
+// 		// sub: 
+// 		add,
+// 		sub
+// 	}
+
+// }
+
+// console.log(calc(10).add(10)); // 20
+// console.log(calc(10).sub(10)); // 0
+
+
 
 
